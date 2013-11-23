@@ -12,12 +12,12 @@ namespace DifferentialSolver
 {
     public partial class Form1 : Form
     {
-        DifferentialSystem d = new DifferentialSystem(new string[] { "x = y", "y = .2*y" }, new string[] { "z = x + y" }, new double[] { -5, .2 });
+        DifferentialSystem d = new DifferentialSystem(new string[] { "x = 2y", "y = 1" }, new string[] { "z = x + y" }, new double[] { 0, 1 });
         double time = 0;
         public Form1()
         {
             InitializeComponent();
-            while(time <= 1000)
+            while(time <= 10)
             {
                 d.Update(.01);
                 time += .01;
@@ -27,7 +27,7 @@ namespace DifferentialSolver
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            d.Paint(e.Graphics, 0, 100, .1);
+            d.Paint(e.Graphics, 0, 10, .1, 0);
         }
     }
 }

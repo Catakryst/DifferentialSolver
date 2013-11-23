@@ -50,30 +50,6 @@ namespace DifferentialSolver
 	        }
             return Evaluate(NumericalString);
         }
-        private double Val(double[] replaceVals)
-        {
-            string NumericalString = EquationString;
-            for (int i = 0; i < replaceVals.Count(); i++)
-                NumericalString = NumericalString.Replace("{" + Variables[i].getName() + "}", replaceVals[i].ToString());
-            return Evaluate(NumericalString);
-        }
-        public IEnumerator<double> Val(IEnumerator<double> times)
-        {
-            IEnumerator<double>[] enums = new IEnumerator<double>[Variables.Count()];
-            for (int i = 0; i < enums.Count(); i++)
-            {
-                enums[i] = Variables[i].Val(times);
-            }
-            while(enums[0].MoveNext())
-            {
-                for (int i = 1; i < enums.Count(); i++)
-                    enums[i].MoveNext();
-                double[] replaceVals = new double[enums.Count()];
-                for (int i = 0; i < enums.Count(); i++)
-                    replaceVals[i] = enums[i].Current;
-                yield return Val(replaceVals);
-            }
-        }
         private static char[] NumericalCharacters = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', '(', ')' };
         private string InsertParens(string s)
         {

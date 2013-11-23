@@ -54,14 +54,14 @@ namespace DifferentialSolver
             for (int i = 0; i < variables.Count(); i++)
 			{
                 ValChange[i] = variables[i].Slope(time) * dt;
-            }
+			}
             for (int i = 0; i < variables.Count(); i++)
             {
-                variables[i].AddValue(time + dt, variables[i].Val(time) + ValChange[i]);
+                variables[i].AddValue(time, variables[i].Val(time) + ValChange[i]);
             }
             time += dt;
         }
-        public void Paint(System.Drawing.Graphics g, double startTime, double endTime, double stepTime, int waitTime = 0)
+        public void Paint(System.Drawing.Graphics g, double startTime, double endTime, double stepTime, int waitTime)
         {
             p = new Plotter(variables[0], variables[1]);
             p.Paint(g, startTime, endTime, stepTime, waitTime);
