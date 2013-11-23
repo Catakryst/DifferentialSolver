@@ -1,0 +1,18 @@
+c:\users\sam\documents\visual studio 2013\Projects\DifferentialSolver\DifferentialSolver\bin\Debug\DifferentialSolver.exe.config
+c:\users\sam\documents\visual studio 2013\Projects\DifferentialSolver\DifferentialSolver\bin\Debug\DifferentialSolver.exe
+c:\users\sam\documents\visual studio 2013\Projects\DifferentialSolver\DifferentialSolver\bin\Debug\DifferentialSolver.pdb
+c:\users\sam\documents\visual studio 2013\Projects\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.csprojResolveAssemblyReference.cache
+c:\users\sam\documents\visual studio 2013\Projects\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.Properties.Resources.resources
+c:\users\sam\documents\visual studio 2013\Projects\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.csproj.GenerateResource.Cache
+c:\users\sam\documents\visual studio 2013\Projects\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.exe
+c:\users\sam\documents\visual studio 2013\Projects\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.pdb
+C:\Users\Sam\documents\visual studio 2013\Projects\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.Form1.resources
+C:\Users\Sam\Documents\GitHub\DifferentialSolver\DifferentialSolver\DifferentialSolver\bin\Debug\DifferentialSolver.exe.config
+C:\Users\Sam\Documents\GitHub\DifferentialSolver\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.exe
+C:\Users\Sam\Documents\GitHub\DifferentialSolver\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.pdb
+C:\Users\Sam\Documents\GitHub\DifferentialSolver\DifferentialSolver\DifferentialSolver\bin\Debug\DifferentialSolver.exe
+C:\Users\Sam\Documents\GitHub\DifferentialSolver\DifferentialSolver\DifferentialSolver\bin\Debug\DifferentialSolver.pdb
+C:\Users\Sam\Documents\GitHub\DifferentialSolver\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Documents\GitHub\DifferentialSolver\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.Form1.resources
+C:\Users\Sam\Documents\GitHub\DifferentialSolver\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.Properties.Resources.resources
+C:\Users\Sam\Documents\GitHub\DifferentialSolver\DifferentialSolver\DifferentialSolver\obj\Debug\DifferentialSolver.csproj.GenerateResource.Cache

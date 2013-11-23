@@ -23,5 +23,9 @@ namespace DifferentialSolver
         {
             return Equation.Val(time);
         }
+        public IEnumerator<double> Val(IEnumerator<double> times)
+        {
+            return Equation.Val(times);
+        }
     }
 }
